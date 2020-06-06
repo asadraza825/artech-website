@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <script src="assets/scripts/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets/scripts/bootstrap.min.js"></script>
+    <style>
+        .alert{
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+    $(Document).ready(function(){
+        $("form").submit(function(){
+        $(".alert").show()
+});
+    })
+    </script>
+</head>
+<body>
+    <header>
+      
+        <div class="flex-container">
+            <div>
+               <a href="index.html"><img class="logo"  src="assets/images/artech-logo.png" ></a>
+               
+            </div>
+            <div class="main-nav">
+               <ul class="menu">
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="team.html">OUR TEAM</a></li>
+                   <li><a href="services.html">SERVICES</a></li>
+                   <li><a href="products.html">PRODUCTS</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+                   <li><a href="schedule.html">SCHEDULE A CALL</a></li>
+                  
+               </ul>
+            </div>
+            <div>
+               <ul class="menu quote">
+                   <li class="bg-light-black"><a href="quote.html">GET A QUOTE</a></li>
+               </ul> 
+            </div>
+        </div>   
+    </header>    
+    <div class="container">
+        <div class="intro center">
+            <p>&nbsp;</p>
+            <h1> <span class="blue">CONTACT</span><span class="green"> US</span></h1>
+        </div>
+        <div class="center">
+            <b class="line">______</b>
+        </div>
+        <div class="article">
+            <form action="#" method="Post" onsubmit="return false">
+                <div class="alert alert-success" role="alert">
+                    Form Submitted Successfully!
+                  </div>
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" class="form-control" required="required">
+                </div>
+               
+                <div class="form-group">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" id="lname" class="form-control" required="required">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" class="form-control" required="required">
+                </div>
+                <div class="form-group">
+                    <label for="number">Cell NO::</label>
+                    <input type="text" name="number" id="number" class="form-control" required="required">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" class="form-control" required="required">
+    
+                    </textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary" name="submit" value="Submit" >
+                </div>
+                
+            </form>
+                    
+        </div>   
+    </div>
+   
+    <footer>
+        <div class="footer">
+
+            <div class="left">
+             <p class="address">
+                <h4>Office Address <br><span class="green-line">____</span></h4>
+                 DHA Karachi, Pakistan<br>
+                 CELL: 92-0331-3837290 <br>
+                 asadraza825@gmail.com
+             </p>
+             </div>
+             <div class="middle">
+                <h4>Services<br><span class="green-line">____</span></h4>
+                <h6>Website Development</h6>
+                <h6>Ecommerce Development</h6>
+                <h6>Mobile Development</h6>
+                <h6>SharePoint Development</h6>
+                <h6>SAP</h6>
+                <h6>Business Intelligence</h6>
+                <h6>Data Warehousing</h6>
+                <h6>Software Development</h6>
+                <h6>IOT Development</h6>
+                <h6>AI services</h6>
+                <h6>PHP Development</h6>
+                <h6>Content Management System</h6>
+                 
+             </div>
+     
+             <div class="right">
+                 <h4>Product<br><span class="green-line">____</span></h4>
+                 <h6>Bullseye Metrics</h6>
+                 <h6>CRM</h6>
+                 <h6>Intelligent Tutoring Systems</h6>
+                 <h6>Document Management System</h6>
+                 <h6>School Management System</h6>
+                 <h6>Visiter Management System</h6>
+                 <h6>Vehicle Management System</h6>
+                 <h4>Industries<br><span class="green-line">____</span></h4>
+                 <h6>Bullseye Metrics</h6>
+                 <h6>Education</h6>
+                 <h6>Banking</h6>
+                 <h6>Governemnt</h6>
+                 <h6>Information Technology</h6>
+                 <h6>Healthcare</h6>
+                 
+             </div>   
+            
+             <div class="right">
+                <h4>Connect With Us<br><span class="green-line">____</span></h4>
+                <!-- <div class="social-icons"> -->
+                   <a href="#" class="social"><img src="assets/images/facebook.png" class="social"></a>
+                   <a href="#" class="social"><img src="assets/images/twitter.png" class="social"></a>
+                   <a href="#" class="social"><img src="assets/images/instagram.png" class="social"></a>
+                   <a href="#" class="social"><img src="assets/images/youtube.png" class="social"></a>
+                   <a href="#" class="social"><img src="assets/images/whatsapp.png" class="social"></a>
+   
+              
+            </div>
+            
+         </div>
+         <div class="copyright center">
+            copyright &copy; AR Technolgies Hub
+        </div> 
+    </footer>
+    
+
+    
+</body>
+</html>
